@@ -1,0 +1,34 @@
+[
+	{
+		"title": "Pagini",
+		"links": [
+			{
+				"name": "Acasă",
+				"link": "/"
+			},
+			{
+				"name": "Despre",
+				"link": "/about"
+			},
+			{
+				"name": "Servicii",
+				"link": "/services"
+			},
+			{
+				"name": "Contact",
+				"link": "/contact"
+			}
+		]
+	},
+	{
+		"title": "Social",
+		"links": [
+			{
+				"name": "LinkedIn",
+				"link": "https://ro.linkedin.com/in/carmen-finaru-326ab473",
+				"social_icon": "LinkedIn",
+				"new_window": true
+			}
+		]
+	}
+]
