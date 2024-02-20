@@ -92,13 +92,20 @@ section {
 .main {
 	@extend .light-section;
 	font-size: 2.25rem;
-}
 
-.fullName {
-	@media (max-width: $mobile-break) {
-		font-size: 1.3rem;
+	.fullName h3 {
+		@media (max-width: $mobile-break) {
+			font-size: 2rem;
+		}
+	}
+
+	.listaServicii h3 {
+		@media (max-width: $mobile-break) {
+			font-size: 2rem;
+		}
 	}
 }
+
 
 .light-section {
 	background-color: #ffffff;
