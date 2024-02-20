@@ -92,6 +92,14 @@ section {
 .main {
 	@extend .light-section;
 	font-size: 2.25rem;
+
+	@media (max-width: $mobile-break) {
+		.content {
+			h3 {
+				font-size: 1.3rem;
+			}
+		}
+	}
 }
 
 .light-section {
