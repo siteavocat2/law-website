@@ -11,17 +11,17 @@ export default function Contact({ page }) {
 				<div className="column">
 					<p className="editor-link"><a href="cloudcannon:collections/content/data/company.json" className="btn"><strong>&#9998;</strong> Update Company Details</a></p>
 
-					<label>Phone Number</label>
+					<label>Telefon</label>
 					<p className="contact-info">
 						<a href={`tel:${data.company.phone}`}>{data.company.phone}</a>
 					</p>
 
-					<label>Email Address</label>
+					<label>Email</label>
 					<p className="contact-info">
 						<a href={`mailto:${data.company.contact_email_address}`}>{data.company.contact_email_address}</a>
 					</p>
 
-					<label>Address</label>
+					<label>Adresă</label>
 					<address
 						className="contact-info"
 						dangerouslySetInnerHTML={{ __html: data.company.address.replace(/,/g, '<br>') }}></address>
